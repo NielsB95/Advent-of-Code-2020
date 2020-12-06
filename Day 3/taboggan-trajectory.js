@@ -8,8 +8,6 @@ const tree = "#";
 const empty = ".";
 
 // Part 1
-
-
 console.log("Part one");
 console.log("Tree count: " + treeEncounters(forestGrid, 3, 1));
 
@@ -32,6 +30,11 @@ function treeEncounters(forest, dX, dY) {
     return treeCount;
 }
 
+
+console.log();
+
+// Part 2
+console.log("Part two");
 var slopes = [
     { dX: 1, dY: 1 },
     { dX: 3, dY: 1 },
@@ -40,8 +43,6 @@ var slopes = [
     { dX: 1, dY: 2 },
 ]
 
-console.log();
-console.log("Part two");
 let result = 1;
 for (let i = 0; i < slopes.length; i++) {
     var slope = slopes[i];
